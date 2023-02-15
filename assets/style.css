@@ -14,7 +14,7 @@ header {
 
 .hero {
     background-color: #000000;
-    background-image: url(../assets/images/the-activation-foundation-low-resolution-logo-white-on-black-background.png);
+    background-image: url("../assets/images/the-activation-foundation-low-resolution-logo-white-on-black-background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,12 +57,19 @@ nav ul a:hover {
 
 /* section */
 
-section {
-    background-color: aqua;
-}
 
 .mainimage {
-    background-color: blueviolet
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.mainimagepic {
+    background-image: url("../assets/images/coverpicture.jpg");
+    height:600px;
+    width: 100%;
+    background-size: cover;
 }
 
 .difact {
