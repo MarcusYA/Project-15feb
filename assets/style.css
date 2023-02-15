@@ -88,8 +88,15 @@ animation-fill-mode: forwards;
     }
 }
 
-.difact {
+.infocont {
     background-color: rgb(88, 88, 160);
+    display: flex;
+}
+
+.infobox {
+    background: azure;
+    width: 200px;
+    height: 400px;
 }
 
 /* footer */
