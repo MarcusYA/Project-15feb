@@ -89,9 +89,9 @@ animation-fill-mode: forwards;
 }
 
 .infocont {
-    background-color: rgb(88, 88, 160);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .infobox {
@@ -99,12 +99,14 @@ animation-fill-mode: forwards;
     width: 280px;
     height: 400px;
     margin: 5px;
+    border-radius: 10px;
 } 
 
 .infoimage {
     background-color: green;
     height: 220px;
     margin-bottom: 15px;
+    border-radius: 10px 10px 0 0;
 }
 
 .type1 {
@@ -120,6 +122,20 @@ animation-fill-mode: forwards;
 .type3 {
     background-image: url("../assets/images/Paintingnew.jpg");
     background-size: cover;
+}
+
+.infobox h2 {
+    padding: 5px;
+    text-align: center;
+}
+
+.infobox p {
+    padding: 5px;
+}
+
+.infobox:hover {
+    background-color: rgb(62, 62, 62);
+    color: azure;
 }
 
 
