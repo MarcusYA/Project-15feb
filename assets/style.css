@@ -70,6 +70,22 @@ nav ul a:hover {
     height:600px;
     width: 100%;
     background-size: cover;
+
+
+/* zoom on the mainimage */
+
+animation-name: mainimagepic-zoom;
+animation-duration: 10s;
+animation-fill-mode: forwards;
+}
+
+@keyframes mainimagepic-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
 
 .difact {
