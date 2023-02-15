@@ -12,9 +12,38 @@ header {
 
 /* Navigation bar */
 
-nav {
-
+.hero {
+    background: url(asset/images/the-activation-foundation-website-favicon-white.png) no-repeat center center;
 }
+
+.name {
+    color: azure;
+    font-family: poppins, sans-serif;
+}
+
+.menu {
+    color: azure;
+}
+
+nav {
+    background-color: rgb(88, 86, 86);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+
 /* section */
 
 /* footer */
