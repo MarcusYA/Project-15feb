@@ -91,13 +91,38 @@ animation-fill-mode: forwards;
 .infocont {
     background-color: rgb(88, 88, 160);
     display: flex;
+    justify-content: center;
 }
 
 .infobox {
     background: azure;
-    width: 200px;
+    width: 280px;
     height: 400px;
+    margin: 5px;
+} 
+
+.infoimage {
+    background-color: green;
+    height: 220px;
+    margin-bottom: 15px;
 }
+
+.type1 {
+    background-image: url("../assets/images/social\ activity\ new.jpg");
+    background-size: cover;
+}
+
+.type2 {
+    background-image: url("../assets/images/skiingnew.jpg");
+    background-size: cover;
+}
+
+.type3 {
+    background-image: url("../assets/images/Paintingnew.jpg");
+    background-size: cover;
+}
+
+
 
 /* footer */
 footer {
