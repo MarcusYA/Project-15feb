@@ -13,7 +13,12 @@ header {
 /* Navigation bar */
 
 .hero {
-    background-image: url(assets/images/the-activation-foundation-low-resolution-logo-white-on-black-background.png) no-repeat center center;
+    background-color: #000000;
+    background-image: url(../assets/images/the-activation-foundation-low-resolution-logo-white-on-black-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px solid green;
 }
 
 .name {
@@ -54,6 +59,14 @@ nav ul a:hover {
 
 section {
     background-color: aqua;
+}
+
+.mainimage {
+    background-color: blueviolet
+}
+
+.difact {
+    background-color: blue;
 }
 
 /* footer */
