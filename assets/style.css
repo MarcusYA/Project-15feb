@@ -100,6 +100,7 @@ animation-fill-mode: forwards;
     height: 400px;
     margin: 5px;
     border-radius: 10px;
+
 } 
 
 .infoimage {
@@ -136,6 +137,8 @@ animation-fill-mode: forwards;
 .infobox:hover {
     background-color: rgb(62, 62, 62);
     color: azure;
+    transform: scale(1.05);
+    transition: all 1s ease;
 }
 
 
