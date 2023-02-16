@@ -7,7 +7,10 @@
 }
 
 header {
-    background-color: red;
+    /*background-color: red;*/
+    position: absolute;
+    width: 100%;
+    z-index: 100;
 }
 
 /* Navigation bar */
@@ -31,7 +34,7 @@ header {
 }
 
 nav {
-    background-color: rgb(88, 86, 86);
+   /* background-color: rgb(88, 86, 86);*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,7 +69,7 @@ nav ul a:hover {
 }
 
 .mainimagepic {
-    background-image: url("../assets/images/coverpicture\ 15\ feb.jpg");
+   background-image: url("../assets/images/coverpicture\ 15\ feb.jpg");
     height:600px;
     width: 100%;
     background-size: cover;
@@ -176,10 +179,7 @@ footer div {
 }
 
 body {
-    background-image: url("../assets/images/coverpicture.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+   
 }
 
 .inputbox {
