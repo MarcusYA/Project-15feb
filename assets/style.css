@@ -88,14 +88,14 @@ nav ul a:hover {
 }
 
 .mainimagepic {
-   background-image: url("../assets/images/coverpicture.jpg");
+   background-image: url("../assets/images/coverpicture1400x593.jpg");
     height:600px;
     width: 100%;
     background-size: cover;
-
+}
 
 /* zoom on the mainimage */
-
+/*
 animation-name: mainimagepic-zoom;
 animation-duration: 10s;
 animation-fill-mode: forwards;
@@ -108,7 +108,7 @@ animation-fill-mode: forwards;
     to{
         transform: scale(1.2);
     }
-}
+} */
 
 .infocont {
     display: flex;
