@@ -100,7 +100,7 @@ animation-fill-mode: forwards;
     height: 400px;
     margin: 5px;
     border-radius: 10px;
-
+    padding: 10px;
 } 
 
 .infoimage {
@@ -145,7 +145,27 @@ animation-fill-mode: forwards;
 
 /* footer */
 footer {
-    background-color: green;
+    background: black;
+    color:white;
+    padding: 20px;
+    display: flex;
+    
+    
 }
+
+footer div {
+    width: 100%;
+    padding: 10px;
+}
+
+.some a {
+    font-size: 200%;
+    color:blue;
+    padding: 30px;
+    }
+
+    .some, .coninfo h1,h2 {
+        color: rgb(87, 82, 82);
+    }
 
 
