@@ -186,10 +186,17 @@ footer div {
     font-size: 200%;
     color:blue;
     padding: 30px;
+    letter-spacing: 5px;
+    
     }
 
     .some, .coninfo h1, .coninfo h2 {
         color: rgb(87, 82, 82);
+        
+    }
+
+    .some {
+        line-height: 1.5;
     }
 
 
