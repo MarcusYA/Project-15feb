@@ -20,11 +20,27 @@ header {
 }
 
 .logo1 {
-    
+    background-color: #000000;
+    background-image: url("../assets/images/the-activation-foundation-low-resolution-logo-white-on-black-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px solid green;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
 }
 
 .logo2 {
-
+    background-color: #000000;
+    background-image: url("../assets/images/the-activation-foundation-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px solid green;
+    width: 350px;
+    height: 50px;
+    z-index: 100;
 }
 
 .name {
