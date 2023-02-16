@@ -69,7 +69,7 @@ nav ul a:hover {
 }
 
 .mainimagepic {
-   background-image: url("../assets/images/coverpicture\ 15\ feb.jpg");
+   background-image: url("../assets/images/coverpicture.jpg");
     height:600px;
     width: 100%;
     background-size: cover;
@@ -174,28 +174,34 @@ footer div {
 
 /*Joinpage*/
 
-.inputpage {
+.section-join {
     box-sizing: border-box;
 }
 
-body {
-   
+.inputpage {
+    background-image: url("../assets/images/coverpicture.jpg");
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+
 }
 
 .inputbox {
-    width: 750px;
+    width:800px;
     margin: 5% auto;
+
 }
 
 .form-area {
     display: flex;
-    background: blue;
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 25px;
-    padding: 2px;
+    padding: 1.9em;
 }
-
+/*
 .msgbox {
     display: flex;
     flex-direction: column;
     order: 2;
 }
+*/
