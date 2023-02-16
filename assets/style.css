@@ -15,13 +15,16 @@ header {
 
 /* Navigation bar */
 
-.hero {
-    background-color: #000000;
-    background-image: url("../assets/images/the-activation-foundation-low-resolution-logo-white-on-black-background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 1px solid green;
+.logo {
+    display:flex;
+}
+
+.logo1 {
+    
+}
+
+.logo2 {
+
 }
 
 .name {
