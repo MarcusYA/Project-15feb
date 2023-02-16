@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: poppins, sans-serif;
 }
 
 header {
@@ -69,6 +70,7 @@ nav ul li {
 nav ul a {
     text-decoration: none;
     color: azure;
+    font-size: 20px;
 }
 
 nav ul a:hover {
@@ -186,7 +188,7 @@ footer div {
     padding: 30px;
     }
 
-    .some, .coninfo h1,h2 {
+    .some, .coninfo h1, .coninfo h2 {
         color: rgb(87, 82, 82);
     }
 
