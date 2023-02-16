@@ -169,3 +169,33 @@ footer div {
     }
 
 
+/*Joinpage*/
+
+.inputpage {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/images/coverpicture.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.inputbox {
+    width: 750px;
+    margin: 5% auto;
+}
+
+.form-area {
+    display: flex;
+    background: blue;
+    border-radius: 25px;
+    padding: 2px;
+}
+
+.msgbox {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
