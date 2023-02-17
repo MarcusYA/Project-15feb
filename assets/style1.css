@@ -9,7 +9,7 @@
 body {
     box-sizing: border-box;
     list-style: none;
-    
+    background: lightgray;
 }
 
 nav {
@@ -80,6 +80,11 @@ animation-fill-mode: forwards;
         transform: scale(1.2);
     }
 } */
+
+.h1index {
+    text-align: center;
+    padding: 50px;
+}
 
 .infocont {
     display: flex;
@@ -213,6 +218,12 @@ label {
 
 /* comingActivities */
 
+.h1upcoming {
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
 .infocont {
     display: flex;
     justify-content: center;
@@ -287,8 +298,9 @@ footer div {
 .some a {
     font-size: 200%;
     color:blue;
-    padding: 30px;
+    padding: 5px;
     letter-spacing: 5px;
+    border-radius: 10px;
     
     }
 
