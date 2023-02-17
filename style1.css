@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: poppins, sans-serif;
+    list-style: none;
+}
+
+body {
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+nav {
+   background: #1c1d1c;
+   height: 80px;
+   width: 100%;
+}
+
+label.logo {
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px
+}
+
+a.active, a:hover {
+    background: #4c9174;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/* zoom on the mainimage */
+/*
+animation-name: mainimagepic-zoom;
+animation-duration: 10s;
+animation-fill-mode: forwards;
+}
+
+@keyframes mainimagepic-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+} */
+
+.infocont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infobox {
+    background: azure;
+    width: 280px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+} 
+
+.infoimage {
+    background-color: green;
+    height: 220px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.type1 {
+    background-image: url("../assets/images/social\ activity\ new.jpg");
+    background-size: cover;
+}
+
+.type2 {
+    background-image: url("../assets/images/skiingnew.jpg");
+    background-size: cover;
+}
+
+.type3 {
+    background-image: url("../assets/images/Paintingnew.jpg");
+    background-size: cover;
+}
+
+.infobox h2 {
+    padding: 5px;
+    text-align: center;
+}
+
+.infobox p {
+    padding: 5px;
+}
+
+.infobox:hover {
+    background-color: rgb(62, 62, 62);
+    color: azure;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+/*Joinpage*/
+
+.section-join {
+    box-sizing: border-box;
+}
+
+.inputpage {
+    background-image: url("../assets/images/coverpicture.jpg");
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+
+}
+
+.inputbox {
+    width:800px;
+    margin: 5% auto;
+
+}
+
+.form-area {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    padding: 1.9em;
+}
+
+.msgbox {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.msgbox > txtbox {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    color: #fff;
+    padding: 15 px;
+}
+
+.personinfo-box {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.personinfo-box input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.personinfo-box input, .personinfo-box button {
+    padding: 1 em;
+    margin-bottom: 1 em;
+}
+
+.personinfo-box button {
+    background: green;
+    color: red;
+    border: 0;
+    padding: 10px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+label {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: Audiowide;
+
+}
+
+/* comingActivities */
+
+.infocont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.infobox {
+    background: azure;
+    width: 280px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 10px;
+} 
+
+.infoimage {
+    background-color: green;
+    height: 220px;
+    margin-bottom: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.type1 {
+    background-image: url("../assets/images/social\ activity\ new.jpg");
+    background-size: cover;
+}
+
+.type2 {
+    background-image: url("../assets/images/skiingnew.jpg");
+    background-size: cover;
+}
+
+.type3 {
+    background-image: url("../assets/images/Paintingnew.jpg");
+    background-size: cover;
+}
+
+.infobox h2 {
+    padding: 5px;
+    text-align: center;
+}
+
+.infobox p {
+    padding: 5px;
+}
+
+.infobox:hover {
+    background-color: rgb(62, 62, 62);
+    color: azure;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+
+
+
+/* footer */
+footer {
+    background: black;
+    color:white;
+    padding: 20px;
+    display: flex;
+    
+    
+}
+
+footer div {
+    width: 100%;
+    padding: 10px;
+}
+
+.some a {
+    font-size: 200%;
+    color:blue;
+    padding: 30px;
+    letter-spacing: 5px;
+    
+    }
+
+    .some, .coninfo h1, .coninfo h2 {
+        color: rgb(87, 82, 82);
+        
+    }
+
+    .some {
+        line-height: 1.5;
+    }
+
+
+/*Joinpage*/
+
+.section-join {
+    box-sizing: border-box;
+}
+
+.inputpage {
+    background-image: url("../assets/images/coverpicture.jpg");
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+
+}
+
+.inputbox {
+    width:800px;
+    margin: 5% auto;
+
+}
+
+.form-area {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    padding: 1.9em;
+}
+
+.msgbox {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.msgbox > txtbox {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    color: #fff;
+    padding: 15 px;
+}
+
+.personinfo-box {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.personinfo-box input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.personinfo-box input, .personinfo-box button {
+    padding: 1 em;
+    margin-bottom: 1 em;
+}
+
+.personinfo-box button {
+    background: green;
+    color: red;
+    border: 0;
+    padding: 10px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+label {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: Audiowide;
+
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+
+    }
+    a:hover, a.active{
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked ~ ul {
+            left: 0;
+    }
+}
