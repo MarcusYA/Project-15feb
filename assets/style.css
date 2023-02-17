@@ -226,10 +226,53 @@ footer div {
     border-radius: 25px;
     padding: 1.9em;
 }
-/*
+
 .msgbox {
     display: flex;
     flex-direction: column;
     order: 2;
 }
-*/
+
+.msgbox > txtbox {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    color: #fff;
+    padding: 15 px;
+}
+
+.personinfo-box {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.personinfo-box input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.personinfo-box input, .personinfo-box button {
+    padding: 1 em;
+    margin-bottom: 1 em;
+}
+
+.personinfo-box button {
+    background: green;
+    color: red;
+    border: 0;
+    padding: 10px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+label {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: Audiowide;
+
+}
