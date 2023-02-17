@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: poppins, sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    background: black;
+    color:white;
+    padding: 20px;
+    display: flex;
+    
+    
+}
+
+footer div {
+    width: 100%;
+    padding: 10px;
+}
+
+.some a {
+    font-size: 200%;
+    color:blue;
+    padding: 30px;
+    letter-spacing: 5px;
+    
+    }
+
+    .some, .coninfo h1, .coninfo h2 {
+        color: rgb(87, 82, 82);
+        
+    }
+
+    .some {
+        line-height: 1.5;
+    }
+
+
+/*Joinpage*/
+
+.section-join {
+    box-sizing: border-box;
+}
+
+.inputpage {
+    background-image: url("../assets/images/coverpicture.jpg");
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+
+}
+
+.inputbox {
+    width:800px;
+    margin: 5% auto;
+
+}
+
+.form-area {
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    padding: 1.9em;
+}
+
+.msgbox {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.msgbox > txtbox {
+    flex: 1;
+    min-width: 18em;
+    background: transparent;
+    color: #fff;
+    padding: 15 px;
+}
+
+.personinfo-box {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.personinfo-box input {
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.personinfo-box input, .personinfo-box button {
+    padding: 1 em;
+    margin-bottom: 1 em;
+}
+
+.personinfo-box button {
+    background: green;
+    color: red;
+    border: 0;
+    padding: 10px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+label {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: Audiowide;
+
+}
