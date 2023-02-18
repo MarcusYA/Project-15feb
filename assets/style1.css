@@ -100,7 +100,7 @@ a.active, a:hover {
 } 
 
 .infoimage {
-    background-color: green;
+
     height: 220px;
     margin-bottom: 15px;
     border-radius: 10px 10px 0 0;
@@ -303,6 +303,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px;
 }
 
 
