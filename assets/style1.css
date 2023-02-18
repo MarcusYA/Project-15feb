@@ -141,14 +141,16 @@ a.active, a:hover {
     text-align: center;
 }
 
+
 .contbox-conteiner {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 .contact-box {
-    width:400px;
+    width:500px;
     background-color: black;
     top: 50%;
     left: 50%;
@@ -157,13 +159,16 @@ a.active, a:hover {
     text-align: center;
 }
 
+
 form {
     margin: 35;
 
+
 }
 
+
 .input-field {
-    width: 300px;
+    width: 400px;
     height: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -174,15 +179,19 @@ form {
 }
 
 
+
+
 .textarea-field {
-    width: 300px;
+    width: 400px;
     max-height: 80px;
     margin-top: 20px;
     padding: 0 10px;
     border: 1px solid #777;
     border-radius: 1px;
 
+
 }
+
 
 .btn {
     border-radius: 20px;
@@ -195,11 +204,13 @@ form {
     cursor: pointer;
 }
 
+
 .btn:hover {
     color:black;
     background-color: rgb(106, 162, 189);
     font-weight: bold;
 }
+
 
 /* comingActivities */
 
