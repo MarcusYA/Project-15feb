@@ -263,6 +263,16 @@ label {
     background-size: cover;
 }
 
+.type4 {
+    background-image: url("../assets/images/hiking.jpg");
+    background-size: cover;
+}
+
+.type5 {
+    background-image: url("../assets/images/football\ .jpg");
+    background-size: cover;
+}
+
 .infobox h2 {
     padding: 5px;
     text-align: center;
