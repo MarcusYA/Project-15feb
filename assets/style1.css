@@ -148,7 +148,7 @@ a.active, a:hover {
 }
 
 .contact-box {
-    width:500px;
+    width:400px;
     background-color: black;
     top: 50%;
     left: 50%;
@@ -163,7 +163,7 @@ form {
 }
 
 .input-field {
-    width: 400px;
+    width: 300px;
     height: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -175,7 +175,7 @@ form {
 
 
 .textarea-field {
-    width: 400px;
+    width: 300px;
     max-height: 80px;
     margin-top: 20px;
     padding: 0 10px;
