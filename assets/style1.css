@@ -69,25 +69,19 @@ a.active, a:hover {
 }
 
 
-/* zoom on the mainimage */
-/*
-animation-name: mainimagepic-zoom;
-animation-duration: 10s;
-animation-fill-mode: forwards;
-}
 
-@keyframes mainimagepic-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.2);
-    }
-} */
+
+/* main image*/
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
 
 .h1index {
     text-align: center;
     padding: 50px;
+    
 }
 
 .infocont {
