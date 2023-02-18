@@ -299,15 +299,17 @@ footer div {
 
 .some a {
     font-size: 200%;
-    color:blue;
+    color:white;
     padding: 5px;
     letter-spacing: 5px;
     border-radius: 10px;
-    
+    text-decoration: none;
     }
 
+    
+
     .some, .coninfo h1, .coninfo h2 {
-        color: rgb(87, 82, 82);
+        color: rgb(116, 128, 163);
         
     }
 
