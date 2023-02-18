@@ -9,7 +9,7 @@
 body {
     box-sizing: border-box;
     list-style: none;
-    background: lightgray;
+    background: rgb(166, 187, 162);
 }
 
 nav {
@@ -139,12 +139,17 @@ a.active, a:hover {
 
 /*Joinpage*/
 
+.joinpageh1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
 .section-join {
     box-sizing: border-box;
 }
 
 .inputpage {
-    background-image: url("../assets/images/coverpicture.jpg");
+    background-image: url("../assets/images/youthjumping.jpg");
     background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -152,16 +157,17 @@ a.active, a:hover {
 }
 
 .inputbox {
-    width:800px;
+    width:600px;
     margin: 5% auto;
 
 }
 
 .form-area {
     display: flex;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     border-radius: 25px;
     padding: 1.9em;
+    flex-direction: column;
 }
 
 .msgbox {
@@ -180,8 +186,9 @@ a.active, a:hover {
 
 .personinfo-box {
     flex: 1;
-    order: 1;
+    
     margin-right: 2em;
+    color: white
 }
 
 .personinfo-box input {
@@ -193,12 +200,12 @@ a.active, a:hover {
 
 .personinfo-box input, .personinfo-box button {
     padding: 1 em;
-    margin-bottom: 1 em;
+    margin-bottom: 1 em solid white;
 }
 
 .personinfo-box button {
-    background: green;
-    color: red;
+    background:#09613c;
+    color: white;
     border: 0;
     padding: 10px 40px;
     font-size: 16px;
@@ -326,82 +333,7 @@ footer {
     }
 
 
-/*Joinpage*/
 
-.section-join {
-    box-sizing: border-box;
-}
-
-.inputpage {
-    background-image: url("../assets/images/coverpicture.jpg");
-    background-position: center center;
-    background-size: cover;
-    -webkit-background-size: cover;
-
-}
-
-.inputbox {
-    width:800px;
-    margin: 5% auto;
-
-}
-
-.form-area {
-    display: flex;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 25px;
-    padding: 1.9em;
-}
-
-.msgbox {
-    display: flex;
-    flex-direction: column;
-    order: 2;
-}
-
-.msgbox > txtbox {
-    flex: 1;
-    min-width: 18em;
-    background: transparent;
-    color: #fff;
-    padding: 15 px;
-}
-
-.personinfo-box {
-    flex: 1;
-    order: 1;
-    margin-right: 2em;
-}
-
-.personinfo-box input {
-    width: 100%;
-    background: transparent;
-    color: #fff;
-    border-radius: 40px;
-}
-
-.personinfo-box input, .personinfo-box button {
-    padding: 1 em;
-    margin-bottom: 1 em;
-}
-
-.personinfo-box button {
-    background: green;
-    color: red;
-    border: 0;
-    padding: 10px 40px;
-    font-size: 16px;
-    text-transform: uppercase;
-    border-radius: 30px;
-}
-
-label {
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 40px;
-    font-family: Audiowide;
-
-}
 
 @media (max-width: 952px) {
     label.logo {
