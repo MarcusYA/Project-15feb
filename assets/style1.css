@@ -234,7 +234,7 @@ label {
     background: azure;
     width: 280px;
     height: 400px;
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
     padding: 10px;
 } 
@@ -284,7 +284,7 @@ label {
 footer {
     background: black;
     color:white;
-    padding: 20px;
+    margin: 20px 0 0 0;
     display: flex;
     
     
