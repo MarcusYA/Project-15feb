@@ -288,14 +288,10 @@ footer {
     color:white;
     margin: 20px 0 0 0;
     display: flex;
-    
-    
+    align-items: center;
+    justify-content: center;
 }
 
-footer div {
-    width: 100%;
-    padding: 10px;
-}
 
 .some a {
     font-size: 200%;
@@ -304,6 +300,7 @@ footer div {
     letter-spacing: 5px;
     border-radius: 10px;
     text-decoration: none;
+    flex-wrap: wrap;
     }
 
     
@@ -315,6 +312,11 @@ footer div {
 
     .some {
         line-height: 1.5;
+        
+    }
+
+    map, .address,.some {
+        padding: 0 50px;
     }
 
 
