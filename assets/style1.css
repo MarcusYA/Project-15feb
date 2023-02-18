@@ -42,11 +42,13 @@ nav ul li a {
     font-size: 17px;
     text-transform: uppercase;
     border-radius: 3px;
-    padding: 7px 13px
+    padding: 7px 13px;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 a.active, a:hover {
-    background: #4c9174;
+    background: #09613c;
     transition: .5s;
 }
 
@@ -427,7 +429,7 @@ label {
     }
     a:hover, a.active{
         color: white;
-        background: #4c9174;
+        background: #09613c;
         transition: .5s;
     }
 
