@@ -116,20 +116,7 @@ a.active, a:hover {
     border-radius: 10px 10px 0 0;
 }
 
-.type1 {
-    background-image: url("../assets/images/social\ activity\ new1mb.jpg");
-    background-size: cover;
-}
 
-.type2 {
-    background-image: url("../assets/images/skiingnew535kb.jpg");
-    background-size: cover;
-}
-
-.type3 {
-    background-image: url("../assets/images/Paintingnew505kb.jpg");
-    background-size: cover;
-}
 
 .infobox h2 {
     padding: 5px;
@@ -228,33 +215,19 @@ form {
     flex-wrap: wrap;
 }
 
-/*.infobox {
-    background: azure;
-    width: 280px;
-    height: 400px;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 10px;
-} 
 
-.infoimage {
-    height: 220px;
-    margin-bottom: 15px;
-    border-radius: 10px 10px 0 0;
-}
-*/
 .type1 {
     background-image: url("../assets/images/social\ activity\ new1mb.jpg");
     background-size: cover;
 }
 
 .type2 {
-    background-image: url("../assets/images/Paintingnew505kb.jpg");
+    background-image: url("../assets/images/skiingnew535kb.jpg");
     background-size: cover;
 }
 
 .type3 {
-    background-image: url("../assets/images/skiingnew535kb.jpg");
+    background-image: url("../assets/images/Paintingnew505kb.jpg");
     background-size: cover;
 }
 
@@ -268,22 +241,7 @@ form {
     background-size: cover;
 }
 
-/*.infobox h2 {
-    padding: 5px;
-    text-align: center;
-}
 
-.infobox p {
-    padding: 5px;
-}
-
-.infobox:hover {
-    background-color: rgb(62, 62, 62);
-    color: azure;
-    transform: scale(1.05);
-    transition: all 1s ease;
-}
-*/
 
 
 
