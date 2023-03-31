@@ -209,6 +209,10 @@ form {
 	font-weight: bold;
 }
 
+.btn.btn:click {
+	background-color: red;
+}
+
 
 /* comingActivities */
 
