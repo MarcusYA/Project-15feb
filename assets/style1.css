@@ -209,7 +209,7 @@ form {
 	font-weight: bold;
 }
 
-.btn.btn:click {
+.btn:click {
 	background-color: red;
 }
 
