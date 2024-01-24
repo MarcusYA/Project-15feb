@@ -62,6 +62,8 @@ Accessibility - colors and font are easy to read
 <br />
 <img src="assets/images/readmeimages/Lighthouse.png" alt="Alt text" title="Optional title">
 <br />
+<br />
+<img src="assets/images/readmeimages/Lighthouse.png" alt="Alt text" title="Optional title">
 
 ## Unfixed bugs
 <br />
