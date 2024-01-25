@@ -81,7 +81,11 @@ The site was deployed to GitHub pages. The live link: https://github.com/MarcusY
 
 ## Credits
 <br />
-Youtube,codecademy,codeinstitute
+The code is mine but I have been inspired by the Youtube-channel https://webdevsimplified.com on how to build and style boxes.
+When it comes to the hamburger menu I have taken inspiration from a Youtube-channel called Deltaty code https://www.youtube.com/watch?v=QQlxvj_GKss
+
+Also I have been constantly used codecademy and codeinstitute pages to check things up along the way.
+
 <br />
 
 ### Media
