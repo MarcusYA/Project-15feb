@@ -56,7 +56,11 @@ Discovered some bugs that was fixed when validated the site. Extreme good learni
 <br />
 HTML - No errors wher found when passing through the official W3C validator
 <br />
+<img src="assets/images/readmeimages/Lighthouse.png" alt="Alt text" title="Optional title">
+<br />
 CSS - No errors wher found when passing through the official W3C validator
+<br />
+<img src="assets/images/readmeimages/Lighthouse.png" alt="Alt text" title="Optional title">
 <br />
 Accessibility - colors and font are easy to read
 <br />
